@@ -31,7 +31,7 @@ const Header = () => {
             <div className="logo__img">
               <img src={logo} alt="" />
             </div>
-            <h2>fitBody</h2>
+            <h2>FitBody</h2>
           </div>
           {/* ==== navigation menu ====*/}
           <div className="navigation">
@@ -45,7 +45,7 @@ const Header = () => {
           </div>
           {/* ====== nav right ===== */}
           <div className="nav__right">
-            <button className="register_btn">register</button>
+            <button className="register__btn">register</button>
             <span className="mobile__menu">
               <i class="ri-menu-line"></i>
             </span>
