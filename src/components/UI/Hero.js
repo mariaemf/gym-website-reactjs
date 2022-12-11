@@ -16,8 +16,8 @@ const Hero = () => {
             </h2>
 
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              nisi unde quis doloremque .
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Culpa nisi unde quis doloremque .
             </p>
 
             <div className="hero__btns">
@@ -54,9 +54,12 @@ const Hero = () => {
                 <span>
                   <i class="ri-map-pin-2-fill"></i>
                 </span>
-                <h5>find a new gym near you</h5>
+                <h5>
+                  Find a new <br /> gym near you
+                </h5>
               </div>
-              <div className="duble__icon">
+
+              <div className="dumble__icon">
                 <img src={dumbleIcon} alt="" />
               </div>
             </div>
