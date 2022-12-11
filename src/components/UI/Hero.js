@@ -1,5 +1,7 @@
 import React from "react";
+import dumbleIcon from "../../assets/img/dumble.png";
 import heroImg from "../../assets/img/gym-02.png";
+import "../../styles/hero.css";
 
 const Hero = () => {
   return (
@@ -15,14 +17,12 @@ const Hero = () => {
 
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              nisi unde quis doloremque, inventore ratione iure libero corporis
-              itaque saepe aliquid quod voluptas qui? Tempore accusamus
-              dignissimos dolores non.
+              nisi unde quis doloremque .
             </p>
 
-            <div className="hero-btns">
+            <div className="hero__btns">
               <button className="register__btn">Get Started </button>
-              <button className="watch_btn">
+              <button className="watch__btn">
                 <span>
                   <i class="ri-play-fill"></i>
                 </span>
@@ -42,6 +42,22 @@ const Hero = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="heart__rate">
+                <h5>Heart Rate</h5>
+                <span>
+                  <i class="ri-heart-pulse-fill"></i>
+                </span>
+                <h5>2567 BPM</h5>
+              </div>
+              <div className="gym__location">
+                <span>
+                  <i class="ri-map-pin-2-fill"></i>
+                </span>
+                <h5>find a new gym near you</h5>
+              </div>
+              <div className="duble__icon">
+                <img src={dumbleIcon} alt="" />
               </div>
             </div>
           </div>
