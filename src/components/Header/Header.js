@@ -23,9 +23,9 @@ const nav__links = [
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="container">
-        <div className="nav_wrapper">
+        <div className="nav__wrapper">
           {/* LOGO */}
           <div className="logo">
             <div className="logo__img">
