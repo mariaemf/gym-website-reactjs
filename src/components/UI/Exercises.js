@@ -1,5 +1,7 @@
 import React from "react";
+import extended from "../../assets/img/extended.png";
 import lunges from "../../assets/img/lunges.png";
+import yoga from "../../assets/img/yoga-pose.png";
 import "../../styles/exercises.css";
 
 const Exercises = () => {
@@ -25,6 +27,34 @@ const Exercises = () => {
 
             <div className="exercise__content">
               <h4>Healthy Life </h4>
+              <p>
+                Lorem ipsum dolor sit amet
+                <br /> consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          <div className="exercise__item">
+            <span className="exercise__icon">
+              <img src={yoga} alt="" />
+            </span>
+
+            <div className="exercise__content">
+              <h4> Increased Flexibility </h4>
+              <p>
+                Lorem ipsum dolor sit amet
+                <br /> consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          <div className="exercise__item">
+            <span className="exercise__icon">
+              <img src={extended} alt="" />
+            </span>
+
+            <div className="exercise__content">
+              <h4>Reducing Blood Pressure </h4>
               <p>
                 Lorem ipsum dolor sit amet
                 <br /> consectetur adipisicing elit.
