@@ -62,9 +62,9 @@ const Princing = () => {
 
           <div className="pricing__item pricing__item02">
             <div className="pricing__card-top">
-              <h2 className="sectiont__title">Regular Member</h2>
+              <h2 className="sectiont__title">Premium Member</h2>
               <h2 className="pricing sectiont__title">
-                $50 <span>/month</span>
+                $70 <span>/month</span>
               </h2>
             </div>
             <div className="services">
@@ -104,11 +104,11 @@ const Princing = () => {
             </div>
           </div>
 
-          <div className="pricing__item pricing__item02">
+          <div className="pricing__item ">
             <div className="pricing__card-top">
-              <h2 className="sectiont__title">Regular Member</h2>
+              <h2 className="sectiont__title">Standard Member</h2>
               <h2 className="pricing sectiont__title">
-                $50 <span>/month</span>
+                $100 <span>/month</span>
               </h2>
             </div>
             <div className="services">
