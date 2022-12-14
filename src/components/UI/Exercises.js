@@ -6,7 +6,7 @@ import "../../styles/exercises.css";
 
 const Exercises = () => {
   return (
-    <section>
+    <section id="schedule">
       <div className="container exercise__container">
         <div className="exercise__top">
           <h2 className="section__title">

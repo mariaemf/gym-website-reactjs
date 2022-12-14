@@ -3,7 +3,7 @@ import "../../styles/pricing.css";
 
 const Princing = () => {
   return (
-    <section>
+    <section id="pricing-plan">
       <div className="container">
         <div className="princing__top">
           <h2 className="section__title">
