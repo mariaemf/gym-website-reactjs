@@ -3,6 +3,8 @@ import logo from "../../assets/img/dumble.png";
 import "../../styles/footer.css";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="container">
@@ -49,7 +51,26 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className="footer__box">
+            <h4 className="footer__title">Quick Links</h4>
+
+            <ul className="footer__links">
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <p className="copyright">
+          {" "}
+          Copyright - {year} developed by Maria Freitas. All rights reserved.{" "}
+        </p>
       </div>
     </footer>
   );
