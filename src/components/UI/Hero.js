@@ -14,10 +14,11 @@ const Hero = () => {
             <h2
               className="section__title"
               data-aos="fade-up"
-              data-aos-duration="1800"
+              data-aos-duration="1500"
             >
-              Exercise is the Key to a
-              <span className="highlights">Healthy</span> Lifestyle
+              {" "}
+              Exercise is the Key to a{" "}
+              <span className="highlights">Healthy</span>Lifestyle
             </h2>
 
             <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
