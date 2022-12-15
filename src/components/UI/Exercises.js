@@ -20,7 +20,11 @@ const Exercises = () => {
         </div>
         {/*===== exercise list ====*/}
         <div className="exercise__wrapper">
-          <div className="exercise__item">
+          <div
+            className="exercise__item"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             <span className="exercise__icon">
               <img src={lunges} alt="" />
             </span>
@@ -34,12 +38,24 @@ const Exercises = () => {
             </div>
           </div>
 
-          <div className="exercise__item">
-            <span className="exercise__icon">
+          <div
+            className="exercise__item"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <span
+              className="exercise__icon"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <img src={yoga} alt="" />
             </span>
 
-            <div className="exercise__content">
+            <div
+              className="exercise__content"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <h4> Increased Flexibility </h4>
               <p>
                 Lorem ipsum dolor sit amet
@@ -48,7 +64,11 @@ const Exercises = () => {
             </div>
           </div>
 
-          <div className="exercise__item">
+          <div
+            className="exercise__item"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             <span className="exercise__icon">
               <img src={extended} alt="" />
             </span>

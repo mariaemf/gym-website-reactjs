@@ -16,7 +16,11 @@ const Princing = () => {
         </div>
         {/* === pricing wrapper ===*/}
         <div className="pricing__wrapper">
-          <div className="pricing__item">
+          <div
+            className="pricing__item"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
             <div className="pricing__card-top">
               <h2 className="sectiont__title">Regular Member</h2>
               <h2 className="pricing sectiont__title">
@@ -60,7 +64,11 @@ const Princing = () => {
             </div>
           </div>
 
-          <div className="pricing__item pricing__item02">
+          <div
+            className="pricing__item pricing__item02"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
             <div className="pricing__card-top">
               <h2 className="sectiont__title">Premium Member</h2>
               <h2 className="pricing sectiont__title">
@@ -104,7 +112,11 @@ const Princing = () => {
             </div>
           </div>
 
-          <div className="pricing__item ">
+          <div
+            className="pricing__item "
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
             <div className="pricing__card-top">
               <h2 className="sectiont__title">Standard Member</h2>
               <h2 className="pricing sectiont__title">

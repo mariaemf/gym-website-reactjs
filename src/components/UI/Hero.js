@@ -5,22 +5,32 @@ import "../../styles/hero.css";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="home">
       <div className="container">
         <div className="hero__wrapper">
           {/* ==== hero content ====  */}
+
           <div className="hero__content">
-            <h2>
-              Exercise is the Key to a{" "}
+            <h2
+              className="section__title"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+            >
+              Exercise is the Key to a
               <span className="highlights">Healthy</span> Lifestyle
             </h2>
 
-            <p>
+            <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
               Culpa nisi unde quis doloremque .
             </p>
 
-            <div className="hero__btns">
+            <div
+              className="hero__btns"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="2000"
+            >
               <button className="register__btn">Get Started </button>
               <button className="watch__btn">
                 <span>
@@ -43,14 +53,22 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div className="heart__rate">
+              <div
+                className="heart__rate"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
                 <h5>Heart Rate</h5>
                 <span>
                   <i class="ri-heart-pulse-fill"></i>
                 </span>
                 <h5>2567 BPM</h5>
               </div>
-              <div className="gym__location">
+              <div
+                className="gym__location"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
                 <span>
                   <i class="ri-map-pin-2-fill"></i>
                 </span>
@@ -59,7 +77,11 @@ const Hero = () => {
                 </h5>
               </div>
 
-              <div className="dumble__icon">
+              <div
+                className="dumble__icon"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
                 <img src={dumbleIcon} alt="" />
               </div>
             </div>

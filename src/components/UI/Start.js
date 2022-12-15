@@ -8,9 +8,18 @@ const Start = () => {
       <div className="container">
         <div className="start__wrapper">
           <div className="start__img">
-            <img src={trainerImg} alt="" />
+            <img
+              src={trainerImg}
+              alt=""
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            />
           </div>
-          <div className="start__content">
+          <div
+            className="start__content"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <h2 className="Section__titile">
               Ready to make a <span className="highlights">change?</span>
             </h2>
